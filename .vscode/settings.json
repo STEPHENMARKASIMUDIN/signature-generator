@@ -1,0 +1,19 @@
+{}{
+    "workbench.colorTheme": "Monokai",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "recentlyUsed",
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": true,
+    // Enable parameter hints
+    "editor.parameterHints.enabled": true,
+}

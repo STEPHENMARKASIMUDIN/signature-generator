@@ -1,0 +1,256 @@
+#disclaimer {
+  font-size: 7pt;
+  margin-top: -15px;
+  margin-bottom: -15px;
+  font-family: "arial narrow";
+  width: 696px;
+  font-weight: bold;
+}
+
+#imgCell {
+  width: 125px;
+  border-right: 3px solid;
+  border-right-color: red;
+  padding-right: 10px;
+  vertical-align: top;
+  font-size: 10px;
+  border-bottom: none;
+  padding-bottom: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#myTypoGraph {
+  margin-top: -4px;
+  border: none;
+  font-family: "Arial";
+  font-size: 10pt;
+  color: black;
+}
+
+#tablecellStyle {
+  padding: 0px;
+  border: none;
+  vertical-align: top;
+}
+
+#mlLogo {
+  height: 1.39cm;
+  width: 5.74cm;
+  vertical-align: middle;
+  background-color: transparent;
+  margin-top: -10px;
+}
+
+#infoTableCell {
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-block: 0px;
+  border: none;
+  padding-bottom: 0px;
+}
+
+#nameTypoGraph {
+  float: left;
+  font-weight: bold;
+  font-size: 11pt;
+  color: red;
+  font-family: "Arial";
+  margin-bottom: 1px;
+}
+
+#jobTypoGraph {
+  float: left;
+  font-weight: bold;
+  margin-left: 4px;
+  font-size: 12pt;
+  color: #403b3b;
+  font-family: "Arial";
+}
+
+#companyTypoGraph {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: -476px;
+  margin-bottom: -58px;
+  margin-top: 130px;
+}
+
+#myForm {
+  min-width: 120;
+  width: 465px;
+}
+
+#myFormLabel {
+  margin-top: -20px;
+  margin-left: 0px;
+  color: darkgray;
+}
+
+#signBtn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  float: right;
+  margin-top: -25px;
+  width: 180px;
+  height: 25px;
+  padding: 1px;
+}
+
+#signBtn:hover {
+  background-color: maroon;
+}
+
+#copyBtn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 765px;
+  height: 25px;
+  padding: 1px;
+}
+
+#copyBtn:hover {
+  background-color: maroon;
+}
+
+#editBtn {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  width: 64px;
+  margin-left: 5px;
+  height: 25px;
+  padding: 1px;
+}
+
+#editBtn:hover {
+  background-color: maroon;
+}
+
+#showMessage {
+  display: none;
+  color: red;
+  margin-left: 240px;
+}
+
+#hiddenMsg {
+  display: none;
+  color: #1a79da;
+  margin-left: 770px;
+}
+
+#stepsPhoto {
+  height: 200px;
+  width: 200px;
+  vertical-align: middle;
+  background-color: transparent;
+  margin-top: -49px;
+  cursor: pointer;
+}
+
+#step2Photo {
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  margin-top: -47px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#step3Photo {
+  height: 200px;
+  width: 200px;
+  margin-left: 16px;
+  background-color: transparent;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+#step4Photo {
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+#alignSpan {
+  text-align: justify;
+}
+
+#stepsCell {
+  border: none;
+  padding: 5px;
+}
+
+#stepPhotoCell {
+  border: none;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  text-align: center;
+}
+
+.myLable {
+  margin-left: 15px;
+  font-family: "Arial";
+  margin-bottom: 5px;
+}
+
+#stepsHeader {
+  font-size: 20px;
+}
+
+#modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: none;
+  outline-color: transparent;
+}
+
+#signatureTable {
+  width: 740px;
+  background-color: white;
+}
+
+#hiddenPreview {
+  width: 713px;
+  background-color: white;
+}
+
+#headermessage {
+  display: block;
+}
+
+#signaturesuccess {
+  display: none;
+}
+
+#startsignature {
+  color: white;
+  background-color: red;
+  width: 105px;
+  height: 25px;
+  margin-top: -2px;
+  margin-left: 10px;
+  padding: 1px;
+}
+
+#startsignature:hover {
+  background-color: maroon;
+}
+
+#step1Div {
+  width: 380px;
+  margin-bottom: -8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,269 @@
+$boldFont: bold;
+$black:black;
+$darkgray :darkgray;
+$fixedWidthAndHeight:200px;
+$floatLeft: left;
+$floatRight: right;
+$fontArialNarrow : 'arial narrow';
+$fontArial : 'Arial';
+$fontSize15 : 15pt;
+$fontSize12 : 12pt;
+$maroon: maroon;
+$paragraphMargin : -15px;
+$pixelSize10: 10px;
+$noBorder: none;
+$noDisplay:none;
+$red: red;
+$zeroPadding: 0px;
+$zeroMargin: 0px;
+$myBtnColor:rgb(214, 19, 9);
+$justtifyText:justify;
+$transparent: transparent;
+$white:white;
+
+
+#disclaimer {
+    font-size: 7pt;
+    margin-top: $paragraphMargin;
+    margin-bottom: $paragraphMargin;
+    font-family: $fontArialNarrow ;  
+    width:696px;
+    font-weight: $boldFont;
+}
+
+#imgCell{
+    width: 125px;
+    border-right: 3px solid;
+    border-right-color: $red;
+    padding-right: $pixelSize10;
+    vertical-align: top;
+    font-size: $pixelSize10;
+    border-bottom: $noBorder;
+    padding-bottom: $zeroPadding;
+    box-sizing: border-box;
+}
+
+#myTypoGraph
+{ 
+    margin-top: -4px;
+    border: $noBorder,;
+    font-family: $fontArial;
+    font-size: 10pt;
+    color: $black;
+    
+};
+
+#tablecellStyle{
+    padding: $zeroPadding;
+    border: $noBorder;
+    vertical-align: top;
+}
+
+#mlLogo{
+    height: 1.39cm; 
+    width: 5.74cm;
+    vertical-align: middle;
+    background-color: $transparent;
+    margin-top: -10px;
+}
+
+#infoTableCell{
+    padding-left: $pixelSize10;
+    padding-top: $zeroPadding;
+    padding-block: $zeroPadding;
+    border: $noBorder;
+    padding-bottom:  $zeroPadding ;
+}
+
+#nameTypoGraph{
+    float: $floatLeft;
+    font-weight: $boldFont;
+    font-size: 11pt;
+    color: $red;
+    font-family: $fontArial;
+    margin-bottom: 1px;
+}
+
+#jobTypoGraph{
+    float: $floatLeft;
+    font-weight: $boldFont;
+    margin-left: 4px;
+    font-size: $fontSize12;
+    color: #403b3b;
+    font-family: $fontArial;
+}
+//5776
+#companyTypoGraph{
+     flex-grow: 1; 
+     margin-left: -476px; 
+     margin-bottom: -58px; 
+     margin-top: 130px;      
+}
+
+#myForm{
+    min-width: 120;
+    width: 465px;
+}
+#myFormLabel{
+    margin-top: -20px; 
+    margin-left: $zeroMargin; 
+    color: $darkgray;
+}
+
+#signBtn{
+     color: $white;
+     background-color: $red;
+     border-radius: 5px;
+     float: $floatRight;
+     margin-top: -25px;
+     width: 180px;
+     height: 25px;
+     padding:1px
+}
+#signBtn:hover{
+background-color: $maroon;
+}
+
+#copyBtn{
+    color: $white;
+    background-color: $red;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 765px;//585
+    height: 25px;
+    padding:1px
+}
+#copyBtn:hover{
+   background-color: $maroon;
+}
+#editBtn{
+    color: $white;
+    background-color: $red;
+    border-radius: 5px;
+    width: 64px;
+    margin-left: 5px;//585
+    height: 25px;
+    padding:1px
+}
+#editBtn:hover{
+   background-color: $maroon;
+}
+
+#showMessage{
+    display: $noDisplay;
+    color: $red;
+    margin-left: 240px;
+}
+
+#hiddenMsg{
+    display: $noDisplay;
+    color: rgb(26, 121, 218);
+    margin-left: 770px;//600px
+}
+
+#stepsPhoto{
+    height: $fixedWidthAndHeight; 
+    width: $fixedWidthAndHeight;
+    vertical-align: middle;
+    background-color: $transparent;    
+    margin-top: -49px;
+    cursor: pointer;
+}
+#step2Photo{
+    height: $fixedWidthAndHeight; 
+    width: $fixedWidthAndHeight;
+    background-color: $transparent;    
+    margin-top:-47px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#step3Photo{
+    height: $fixedWidthAndHeight; 
+    width: $fixedWidthAndHeight;
+    margin-left: 16px;    
+    background-color: $transparent;    
+    margin-top: 1px;
+    cursor: pointer;
+}
+#step4Photo{
+    height: $fixedWidthAndHeight; 
+    width: $fixedWidthAndHeight;
+    background-color: $transparent;  
+    margin-top: -50px;
+    cursor: pointer;
+}
+#alignSpan{
+    text-align: $justtifyText;
+}
+
+// #steps2Photo{
+//     height: 250px; 
+//     width: 132px;
+//     vertical-align: middle;
+//     background-color: transparent;
+// }
+// #steps1Photo{
+//     height: 250px; 
+//     width: 225px;
+//     vertical-align: middle;
+//     background-color: transparent;
+// }
+#stepsCell{
+    border:$noBorder;
+    padding:5px;
+}
+#stepPhotoCell{
+    //border:solid;
+    border:$noBorder;
+    display: inline-grid;
+    text-align: center;
+}
+.myLable{
+    margin-left: 15px;
+    font-family: $fontArial;
+    margin-bottom:5px
+}
+#stepsHeader{
+   font-size: 20px;
+   //font-weight: $boldFont;
+}
+#modal{
+     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: $noBorder;
+    outline-color: $transparent;
+}
+
+#signatureTable{
+    width: 740px;
+    background-color: $white;
+}
+#hiddenPreview{
+    width: 713px;
+    background-color: $white;
+}
+#headermessage{
+    display:block;
+}
+#signaturesuccess{
+    display:$noDisplay;
+}
+#startsignature{
+    color:$white; 
+    background-color: $red;
+    width: 105px; 
+    height: 25px;
+    margin-top: -2px;
+    margin-left: 10px;
+    padding:1px;
+}
+#startsignature:hover{
+    background-color: $maroon;
+}
+#step1Div{
+    width: 380px;
+     margin-bottom: -8px;
+     display:flex;
+}
